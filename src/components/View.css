@@ -1,0 +1,76 @@
+@import url("https://use.typekit.net/iro6eoh.css");
+@import url("https://use.typekit.net/iro6eoh.css");
+
+.App-header{
+    width: 49.99vw;
+    height: 50vh;
+    /* display: inline-block; */
+    /* background-color: red; */
+    background-position: center;
+    background-size: cover;
+    /* outline: 1px rgb(80, 80, 80) solid; */
+}
+
+.flicker2bitch{
+    animation: flicker 5s linear infinite;
+}
+
+.upLeft{
+
+}
+
+.upRight{
+    background-image: url('../utilities/gifProd_1.gif');
+}
+
+.botLeft{
+    background-image: url('../utilities/gifMG_1.gif');
+}
+
+.botRight{
+    background-image: url('../utilities/gifLV_1.gif');
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.Header-info{
+    width: 74%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family: input-sans-compressed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vw;
+    text-shadow: 3px 3px 15px black;
+    margin: 0% 0% 3%;
+}
+
+p{
+    font-family: input-mono,monospace;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1vw;
+    margin: 1% 0;
+}
+
+a{
+    color: white;
+}
